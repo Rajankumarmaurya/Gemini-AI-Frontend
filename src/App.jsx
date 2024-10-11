@@ -16,6 +16,7 @@ const App = () => {
     .then(res=>{
       console.log(res.data.res);
       setResponse(res.data.res);
+      setQuestion('');
       
     })
     .catch(err=>{
@@ -33,7 +34,7 @@ const App = () => {
           <img className='pic' src={avtar} />
         </div>
         <p className='label'>QUESTION</p>
-        <textarea onChange={(e) => { setQuestion(e.target.value) }} />
+        <textarea value={question} onChange={(e) => { setQuestion(e.target.value) }} />
         <button onClick={submitHandler}>Send</button>
       </div>
       <div className="box">
