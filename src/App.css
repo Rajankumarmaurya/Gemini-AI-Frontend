@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.App {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #282c34;
+}
+
+.box {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:25px;
+}
+.label
+{
+  color: rgb(109, 226, 250);
+  font-size: 20px;
+}
+.avtar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px royalblue;
+    overflow: hidden;
+}
+textarea
+{
+  width: 80%;
+  height: 300px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px white;
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+button
+{
+  width: 80%;
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.pic
+{
+  width: 200px;
+  height: 200px;
+  
+}
